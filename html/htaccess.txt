@@ -1,0 +1,2 @@
+RewriteEngine On
+Header set X-Empresa "MiEmpresa2025"
