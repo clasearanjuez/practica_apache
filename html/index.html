@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Empresa Local - Inicio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Empresa Local</h1>
+        <p>Bienvenido al portal corporativo</p>
+    </header>
+    <main>
+        <p id="fecha"></p>
+    </main>
+    <script>
+        document.getElementById('fecha').textContent = 'Fecha y hora: ' + new Date().toLocaleString('es-ES');
+    </script>
+</body>
+</html>
