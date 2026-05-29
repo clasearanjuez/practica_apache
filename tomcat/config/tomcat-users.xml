@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcat-users xmlns="http://tomcat.apache.org/xml"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://tomcat.apache.org/xml tomcat-users.xsd"
+              version="1.0">
+
+    <role rolename="manager-gui"/>
+    <role rolename="manager-script"/>
+    <role rolename="admin-gui"/>
+    <role rolename="viewer"/>
+
+    <user username="admin" password="Admin2025!" roles="manager-gui,admin-gui,manager-script"/>
+    <user username="supervisor" password="Super2025!" roles="manager-script"/>
+    <user username="viewer" password="View2025!" roles="viewer"/>
+
+</tomcat-users>
