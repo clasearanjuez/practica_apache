@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Portal de Clientes</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Portal de Clientes</h1>
+        <p>Acceso exclusivo para clientes</p>
+    </header>
+    <main>
+        <p>Bienvenido al área de clientes.</p>
+        <p id="fecha"></p>
+    </main>
+    <script>
+        document.getElementById('fecha').textContent = 'Fecha y hora: ' + new Date().toLocaleString('es-ES');
+    </script>
+</body>
+</html>
