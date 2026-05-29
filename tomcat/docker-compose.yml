@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  tomcat:
+    build: .
+    container_name: servidor-tomcat
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+      - "8443:8443"
+      - "8009:8009"
+    volumes:
+      - tomcat_logs:/opt/tomcat/logs
+      - tomcat_conf:/opt/tomcat/conf
+    restart: always
+
+volumes:
+  tomcat_logs:
+  tomcat_conf:
